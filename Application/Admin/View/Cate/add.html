@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> author:单桐qq:278176188</title>
+
+    <meta name="description" content="Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Basic Styles-->
+    <link href="__PUBLIC__/style/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/font-awesome.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/weather-icons.css" rel="stylesheet">
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="__PUBLIC__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/style/demo.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/typicons.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/animate.css" rel="stylesheet">
+
+</head>
+<body>
+<include file="Common/header"/>
+
+<div class="main-container container-fluid">
+    <div class="page-container">
+        <include file="Common/nav_left"/>
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="__MODULE__/Cate/lst">系统</a>
+                    </li>
+                    <li>
+                        <a href="__MODULE__/Cate/lst">商品管理</a>
+                    </li>
+                    <li class="active">添加商品</li>
+                </ul>
+            </div>
+            <!-- /Page Breadcrumb -->
+
+            <!-- Page Body -->
+            <div class="page-body">
+
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="widget">
+                            <div class="widget-header bordered-bottom bordered-blue">
+                                <span class="widget-caption">新增商品</span>
+                            </div>
+                            <div class="widget-body">
+                                <div id="horizontal-form">
+                                    <form class="form-horizontal" role="form" action="" method="post">
+                                        <div class="form-group">
+                                            <label for="catename"
+                                                   class="col-sm-2 control-label no-padding-right">商品名称</label>
+                                            <div class="col-sm-6">
+                                                <input class="form-control" id="catename" placeholder="" name="catename"
+                                                       required="" type="text">
+                                            </div>
+                                            <p class="help-block col-sm-4 red">* 必填</p>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label no-padding-right">商品类型</label>
+                                            <div class="col-sm-6">
+                                                <div class="bs-example" data-example-id="split-button-dropdown">
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn btn-default" id="cur_cate_type">根节点</button>
+                                                        <input type="hidden" value="0" name="pid" id="pid"/>
+                                                        <button type="button" class="btn btn-default dropdown-toggle"
+                                                                data-toggle="dropdown" aria-haspopup="true"
+                                                                aria-expanded="false">
+                                                            <span class="caret"></span>
+                                                            <span class="sr-only">Toggle Dropdown</span>
+                                                        </button>
+                                                        <ul class="dropdown-menu" id="cate_list">
+                                                            <li><a href="#" name="0">根节点</a></li>
+                                                            <volist name="list" id="vo">
+                                                            <li><a href="#" name="{$vo.id}">{$vo.catename}</a></li>
+                                                        </volist>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <button type="submit" class="btn btn-default">保 存</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /Page Body -->
+        </div>
+        <!-- /Page Content -->
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="__PUBLIC__/style/jquery_002.js"></script>
+<script src="__PUBLIC__/style/bootstrap.js"></script>
+<script src="__PUBLIC__/style/jquery.js"></script>
+<!--Beyond Scripts-->
+<script src="__PUBLIC__/style/beyond.js"></script>
+
+<script type="text/javascript">
+    $("#cate_list li a").click(function(){
+        $("#cur_cate_type").text($(this).html());
+        $("#pid").val($(this).attr("name"));
+    });
+</script>
+
+</body>
+</html>

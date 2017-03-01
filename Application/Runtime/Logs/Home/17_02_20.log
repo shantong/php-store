@@ -1,0 +1,72 @@
+[ 2017-02-20T10:42:41+08:00 ] 192.168.3.106 /shop/index.php/Admin/Brand/edit/id/9/brandname/%E5%BD%BC%E9%9B%B7%E6%96%AF/brand_url/%7Burlencode($brand.brand_url)%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-02-20T10:43:20+08:00 ] 192.168.3.106 /shop/index.php/Admin/Brand/edit/id/9/brandname/%E5%BD%BC%E9%9B%B7%E6%96%AF/brand_url/%7Burlencode($brand.brand_url)%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-02-20T10:44:13+08:00 ] 192.168.3.106 /shop/index.php/Admin/Brand/edit/id/9/brandname/%E5%BD%BC%E9%9B%B7%E6%96%AF/brand_url/urlencode(www.baidu.com)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\wamp64\www\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-02-20T10:44:45+08:00 ] 192.168.3.106 /shop/index.php/Admin/Brand/edit/id/9/brandname/%E5%BD%BC%E9%9B%B7%E6%96%AF/brand_url/urlencode($brand.brand_url)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-02-20T10:45:16+08:00 ] 192.168.3.106 /shop/index.php/Admin/Brand/edit/id/9/brandname/%E5%BD%BC%E9%9B%B7%E6%96%AF/brand_url/%7Burlencode($brand.brand_url)%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 11 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Brand
+
+[ 2017-02-20T13:37:56+08:00 ] 192.168.3.106 /shop/index.php/Admin/Brand/edit/id/9/brandname/javascript:escape($brand.brand_name);
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 12 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 12 D:\wamp64\www\shop\ThinkPHP\Library\Think\Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 12 D:\wamp64\www\shop\ThinkPHP\Library\Think\Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Brand
+
